@@ -87,13 +87,6 @@ dependencies {
 
     compile group: 'org.slf4j', name: 'slf4j-api'
     compile group: 'ch.qos.logback', name: 'logback-classic'
-
-    testCompile group: 'junit', name: 'junit'
-    testCompile group: 'io.vertx', name: 'vertx-unit'
-    testCompile group: 'com.netflix.hystrix', name: 'hystrix-core'
-    testCompile group: 'com.github.kennedyoliveira', name: 'hystrix-vertx-metrics-stream'
-    testCompile group: 'org.mockito', name: 'mockito-core'
-    testCompile group: 'com.github.stefanbirkner', name: 'system-rules'
 }
 
 findbugs {
